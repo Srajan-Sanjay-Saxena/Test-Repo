@@ -1,14 +1,10 @@
-name: First yaml file
+name: My First CICD
 on: [push]
 
 jobs:
-  run-shell-commands:
+  automatic-hosting:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
-        run: echo "Hello world srajan saxena"
-
-      - name: Multiline Command
-        run: |
-          node -v
-          npm -v
+      - name: just a test
+        run: echo "Hello World"
+      
